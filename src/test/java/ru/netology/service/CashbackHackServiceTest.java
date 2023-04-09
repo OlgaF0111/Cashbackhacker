@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class CashbackHackServiceTest {
 
     @Test
-    public void testRemain() {
+    public void needToBuyOn100() {
         CashbackHackService service = new CashbackHackService();
         int amount = 900;
 
@@ -19,7 +19,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void testRemain1() {
+    public void needToBuyOn1() {
         CashbackHackService service = new CashbackHackService();
         int amount = 999;
 
@@ -30,7 +30,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void testRemain2() {
+    public void needToBuyOn0() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
 
@@ -41,7 +41,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void testRemain123() {
+    public void needToBuyOn500() {
         CashbackHackService service = new CashbackHackService();
         int amount = 500;
 
@@ -52,7 +52,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void testRemain456() {
+    public void needToBuyOn900() {
         CashbackHackService service = new CashbackHackService();
         int amount = 100;
 
@@ -63,7 +63,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void testRemain4546() {
+    public void needToBuyOn999() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1;
 
@@ -74,7 +74,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void testRemain4566() {
+    public void needToBuyOn250() {
         CashbackHackService service = new CashbackHackService();
         int amount = 3750;
 
